@@ -5,11 +5,7 @@ A Go CLI app that gets info about currency using [Free Currency Rates API](https
 # Global usage
 
 ```bash
-go build main.go
+chmod +x ./install.sh
 
-mv main currency-cli
-
-cp currency-cli /usr/local/bin
-
-currency-cli getCurrencies
+./install.sh
 ```
