@@ -4,4 +4,4 @@ go build main.go
 
 mv main currency
 
-cp currency /usr/local/bin
+sudo cp currency /usr/local/bin
